@@ -1,0 +1,28 @@
+{
+    "name": "stougeiro/sourcerer-cache",
+    "type": "library",
+    "description": "Provides simple and fast cache system.",
+    "keywords": ["php","simple","fast","cache"],
+    "homepage": "https://github.com/stougeiro/sourcerer-cache",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Sidney Tougeiro",
+            "email": "atendimento@sidneytougeiro.com",
+            "homepage": "http://www.sidneytougeiro.com/"
+        }
+    ],
+    "support": {
+        "email": "atendimento@sidneytougeiro.com"
+    },
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.5.20"
+    },
+    "autoload": {
+        "psr-0": { "": "src/" }
+    }
+}
